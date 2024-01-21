@@ -44,8 +44,8 @@
             label = "Lower";
             bindings = <
 &kp ESCAPE  &kp F1         &kp F2  &kp F3      &kp F4      &kp F5                                       &kp F7        &kp F8        &kp F9        &kp F10   &kp F11   &kp TILDE
-&none       &none          &none   &none       &none       &kp PRINTSCREEN                              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none     &none     &kp SQT
-&none       &kp EXCL       &kp AT  &kp HASH    &kp DOLLAR  &kp PRCNT                                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none     &kp UP    &kp NON_US_BACKSLASH
+&none       &none          &none   &none       &none       &kp PRINTSCREEN                              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none     &none     &kp SINGLE_QUOTE
+&none       &kp EXCL       &kp AT  &kp HASH    &kp DOLLAR  &kp PRCNT                                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none     &kp UP    &kp BACKSLASH
 &none       &kp LESS_THAN  &none   &none       &none       &none            &trans              &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT  &kp DOWN  &kp RIGHT
                                    &bt BT_CLR  &bt BT_NXT  &trans           &ext_power EP_ON    &trans  &trans        &trans        &trans
             >;
