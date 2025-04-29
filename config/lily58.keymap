@@ -64,10 +64,10 @@
 
             label = "Raise";
             bindings = <
-&kp K_POWER     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none                    &kp K_PLAY_PAUSE  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &none            &none  &kp C_VOLUME_UP
-&bt BT_CLR      &none         &none         &none         &none  &none                    &kp KP_NUMBER_7   &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_9  &none  &kp C_VOLUME_DOWN
-&bt BT_CLR_ALL  &none         &none         &none         &none  &none                    &kp KP_NUMBER_4   &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none            &none  &kp K_MUTE
-&bt BT_SEL 0    &none         &none         &none         &none  &none  &none     &none   &kp KP_NUMBER_1   &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none            &none  &rgb_ug RGB_TOG
+&kp K_POWER     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none                    &kp K_PLAY_PAUSE  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &none            &none            &kp C_VOLUME_UP
+&bt BT_CLR      &none         &none         &none         &none  &none                    &kp KP_NUMBER_7   &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_9  &rgb_ug RGB_HUD  &kp C_VOLUME_DOWN
+&bt BT_CLR_ALL  &none         &none         &none         &none  &none                    &kp KP_NUMBER_4   &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none            &rgb_ug RGB_HUI  &kp K_MUTE
+&bt BT_SEL 0    &none         &none         &none         &none  &none  &none     &none   &kp KP_NUMBER_1   &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none            &rgb_ug RGB_EFF  &rgb_ug RGB_TOG
                                             &none         &none  &none  &trans    &trans  &none             &none            &none
             >;
 
